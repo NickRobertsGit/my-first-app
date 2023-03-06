@@ -1,0 +1,20 @@
+<label>Databinding</label>
+<input
+    type="text"
+    class="form-control"
+    style="width: fit-content"
+    [(ngModel)]="username">
+
+
+<p>I hearby declare you, {{ username }}, as the username of this establishment</p>
+<p> {{ username }} </p>
+
+<button class='btn btn-primary'
+[disabled]="stringNotEmpty"
+(click)="onReset()">Clear</button>
+
+
+<h4><strong>stringNotEmpty status:</strong></h4>
+<p>{{ stringNotEmpty }}</p>
+<hr>
+
