@@ -1,0 +1,9 @@
+.message {
+    width: fit-content;
+    border: 1px solid forestgreen;
+    background: lightgreen;
+    color: black;
+    padding: 8px;
+    margin: 8px;
+    box-shadow: 4px 4px 4px rgb(0, 61, 3);
+}

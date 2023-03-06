@@ -1,0 +1,9 @@
+.server {
+    width: fit-content;
+    padding: 4px;
+    margin: 8px;
+    border: 1px solid rgb(0, 49, 49);
+    color: white;
+    background-color: darkcyan;
+    box-shadow: 2px 2px 2px black;
+}
